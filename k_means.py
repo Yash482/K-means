@@ -16,7 +16,7 @@ pixel_val = img_copy.reshape((-1, 3))
 pixel_val = np.float32(pixel_val)
 
 #Now perform k means
-k =2;
+k =8;
 
 #decide criteria to converg
 criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 100, 1.0  )
